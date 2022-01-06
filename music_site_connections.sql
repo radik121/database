@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS ArtistsGenres (
 );
 
 CREATE TABLE IF NOT EXISTS CollectionsTracks (
-	id_collection INT PRIMARY KEY,
-	id_track INT NOT NULL
+	id_collection INT REFERENCES Collection(id),
+	id_tracks INT REFERENCES Tracks(id),
+	CONSTRAINT pk_CollectionsTracks PRIMARY KEY (id_collection, id_tracks)
 );

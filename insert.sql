@@ -76,7 +76,8 @@ INSERT INTO ArtistsAlbums (id_artist, id_album) VALUES
 (5, 11),
 (15, 18),
 (15, 19),
-(16, 20);
+(16, 20),
+(2, 1);
 
 INSERT INTO ArtistsGenres VALUES
 (1, 1),
@@ -85,7 +86,9 @@ INSERT INTO ArtistsGenres VALUES
 (4, 1),
 (5, 4),
 (15, 4),
-(16, 4);
+(16, 4),
+(4, 2),
+(2, 4);
 
 INSERT INTO CollectionsTracks VALUES
 (1, 1),
@@ -95,24 +98,17 @@ INSERT INTO CollectionsTracks VALUES
 (1, 13),
 (2, 4),
 (2, 13),
-(2, 15),
 (2, 16),
 (2, 17),
 (2, 5),
-(2, 7),
-(2, 8),
-(2, 14),
 (3, 6),
 (3, 9),
 (3, 18),
 (3, 19),
 (3, 20),
-(3, 21),
 (4, 10),
 (4, 11),
 (4, 12),
 (4, 13),
 (3, 31),
-(3, 32),
-(2, 33),
-(3, 33);
+(3, 32);
